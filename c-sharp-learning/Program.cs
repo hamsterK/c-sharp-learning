@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace HelloWorld
 {
@@ -43,7 +44,36 @@ namespace HelloWorld
             // int age = Console.ReadLine(); => will cause error => Cannot implicitly convert type 'string' to 'int'
             Console.WriteLine("Your age is: " + age);
 
-        }   
+            Console.WriteLine(x < 5 && z < 10);  // Logical and
+            Console.WriteLine(x < 5 || x < 4);  // Logical or
+            Console.WriteLine(!(x < 5));  // Logical not
+
+            Console.WriteLine(Math.Max(5, 10));
+            Console.WriteLine(Math.Min(5, 10));
+            Console.WriteLine(Math.Sqrt(64));  // square root of x
+            Console.WriteLine(Math.Abs(-4.7));  // obsolete (positive) value
+            Console.WriteLine(Math.Round(9.99));
+
+            string firstName = "John";
+            string lastName = "Doe";
+            string name = $"My full name is: {firstName} {lastName}";
+            Console.WriteLine(name);
+            Console.WriteLine(name.Length);
+            Console.WriteLine(name.ToUpper());
+            Console.WriteLine(name.ToLower());
+
+            string name2 = string.Concat(firstName, lastName);  // second option
+            Console.WriteLine(name[0]);
+            int charPos = name.IndexOf("D");
+
+            string lastNameSubstring = name.Substring(charPos);
+
+            string txtEscape = "We are the so-called \"Vikings\" from the north.";  // backlash escape character
+
+
+
+
+        }
     }
 }
 // single-line comment
