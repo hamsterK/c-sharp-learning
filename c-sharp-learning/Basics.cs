@@ -2,11 +2,13 @@
 using System.Globalization;
 using System.Linq;
 
-namespace HelloWorld
+namespace BasicLearning
 {
-    class Program
+    class Basics
     {
-        static void Main(string[] args)
+        //static void Main(string[] args)
+        static void Main1(string[] args)
+
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine(3 + 3);
