@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Linq;
 
-namespace BasicLearning
+namespace basic_learning
 {
     class Basics
     {
