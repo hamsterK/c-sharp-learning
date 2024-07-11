@@ -36,7 +36,7 @@ namespace methods_learning
         }
 
 
-        static void Main(string[] args)  // void - returns nothing
+        static void Main2(string[] args)  // void - returns nothing
         {
             MyMethod("Liam", 5);
             MyMethod("Jenny", 8);
