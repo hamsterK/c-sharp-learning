@@ -25,7 +25,7 @@ namespace properties_learning_encapsulation
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main6(string[] args)
         {
             Person myObj = new Person();
             myObj.Name = "Liam";
