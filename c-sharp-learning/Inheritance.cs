@@ -1,11 +1,4 @@
-﻿using classes_objects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace learning_inheritance
+﻿namespace learning_inheritance
 {
     class Vehicle  // base class == parent
     // sealed class Vehicle  - "sealed" restricts inheritance
@@ -24,7 +17,7 @@ namespace learning_inheritance
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main7(string[] args)
         {
             Car myCar = new Car();
             myCar.honk();
